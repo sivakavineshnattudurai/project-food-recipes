@@ -1,0 +1,108 @@
+
+header {
+    background: rgb(255, 219, 100);
+    color: rgb(0, 0, 0);
+    padding: 1rem 0;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 2rem;
+}
+
+nav .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display:inline-flex ;
+    gap: 1.5rem;
+}
+
+nav ul li {
+    display: flex;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    font-size: 0.8rem;
+}
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: left;
+}
+
+.video-container {
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.instructions{
+    width: 40%;
+    border: 5px;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.822);
+    border: 0.05rem solid black;
+    border-radius: 5%;
+    box-shadow: 10px 10px 10px #888888;
+    padding:10px 15px 15px 15px;
+}
+.requirements {
+    width: 48%;
+    border: 5px;
+    background-color: rgba(255, 255, 255, 0.822);
+    border: 0.05rem solid black;
+    border-radius: 5%;
+    box-shadow: 10px 10px 10px #888888;
+    padding:10px 15px 15px 15px;
+}
+
+
+.comments-section {
+    margin-bottom: 20px;
+}
+.rating-section{
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+form textarea, form select, form button {
+    margin-top: 10px;
+}
+h2 ol li b{
+    line-height: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: white;
+}

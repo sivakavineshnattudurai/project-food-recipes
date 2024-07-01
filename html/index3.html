@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodiez</title>
+    <link rel="stylesheet" href="/css/style3.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Foodiez</div>
+            <ul>
+                <li><a href="index3.html">Home</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="Cooking-challenge.html">Cooking Challenge</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+                <li><a href="community.html">Community</a></li>
+                <li><button><a href="Sign-in.html">sign in/Login</a></button></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <h1>Discover the best food & drinks in your city</h1>
+        <input type="text" id="search" placeholder="Search for dishes..,">
+        <button type=submit class="search-button">search</button>
+    </section>
+    <section class="restaurants">
+        <h2>Popular Restaurants</h2>
+        <div class="trend-list">
+            <div class="restaurant-card" onclick="openRestaurant('restaurant1.html')">
+                <img src="/assets/sambar.jpg" alt="Sambar">
+                <h3>Sambar</h3>
+                <p><i>South Indian Dish</i></p>
+            </div>
+            <div class="trend-list" onclick="openRestaurant('Idly.html')">
+                <img src="assets/Idly.jpg" alt="Idly">
+                <h3>Restaurant 2</h3>
+                <p>Chinese, Dim Sum</p>
+            </div>
+            <!-- Add more restaurant cards as needed -->
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Foodiez. All rights reserved.</p>
+    </footer>
+    <script src="script3.js"></script>
+</body>
+</html>
